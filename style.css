@@ -21,7 +21,10 @@ body {
 
 .wrapper {
   width: 420px;
-  background: darkmagenta;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px, rgba(0, 0, 0, 0.2);
   color: #fff;
   border-radius: 10px;
   padding: 30px 40px;
@@ -30,6 +33,8 @@ body {
 .wrapper h1 {
   font-size: 36px;
   text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
 }
 
 .wrapper .input-box {
